@@ -1,0 +1,15 @@
+# Cloudflare Pages _redirects
+
+# Clean URL support (optional - Cloudflare Pages handles .html automatically)
+/listings      /listings.html      301
+/pricing       /pricing.html       301
+/submit        /submit.html        301
+/blog          /blog/best-tow-trucks-slc.html  302
+
+# Legacy / alternate URL spellings
+/tow-truck-salt-lake-city   /    301
+/salt-lake-city-towing      /    301
+/emergency-towing-slc       /listings.html  302
+
+# 404 fallback
+/* /index.html 200

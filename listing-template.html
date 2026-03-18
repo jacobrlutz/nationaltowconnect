@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Towing Company Profile | SLC Tow Trucks</title>
+  <meta name="description" content="View towing company details, ratings, service areas, and contact info. Find the best tow truck service in Salt Lake City, Utah.">
+  <meta name="keywords" content="tow truck salt lake city, emergency towing SLC, towing service utah, 24 hour towing salt lake city">
+
+  <!-- Open Graph (updated dynamically by JS) -->
+  <meta property="og:type" content="business.business">
+  <meta property="og:title" content="Towing Company — SLC Tow Trucks">
+  <meta property="og:description" content="View ratings, service areas, and contact info for this towing company in Salt Lake City, Utah.">
+  <meta property="og:url" content="https://slctowtruck.com/listing-template.html">
+  <meta property="og:image" content="https://slctowtruck.com/og-image.jpg">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- JSON-LD: updated dynamically by JS for production; static fallback below -->
+  <script type="application/ld+json" id="ld-json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutoRepair",
+    "name": "Towing Company — SLC",
+    "description": "Professional towing services in Salt Lake City, Utah",
+    "areaServed": "Salt Lake City, UT",
+    "telephone": "",
+    "priceRange": "$$",
+    "openingHours": "Mo-Su 00:00-24:00",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Salt Lake City",
+      "addressRegion": "UT",
+      "addressCountry": "US"
+    }
+  }
+  </script>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="container">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">🚛</span>
+        <span class="logo-text">SLC <span>Tow Trucks</span></span>
+      </a>
+      <div class="header-emergency">
+        <span>24/7 Emergency Dispatch</span>
+        <strong>📞 (801) 555-TOW1</strong>
+      </div>
+      <div class="header-cta">
+        <a href="submit.html" class="btn btn-primary btn-sm">List Your Business</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Profile content injected here by JS -->
+<div id="profile-container"></div>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo" style="font-size:1.1rem;">
+          <span class="logo-icon">🚛</span>SLC <span>Tow Trucks</span>
+        </a>
+        <p>The #1 towing directory for Salt Lake City and the greater Utah metro area.</p>
+      </div>
+      <div class="footer-col">
+        <h4>For Drivers</h4>
+        <ul>
+          <li><a href="listings.html">Find Towing</a></li>
+          <li><a href="listings.html?q=emergency">Emergency Towing</a></li>
+          <li><a href="listings.html?q=lockout">Lockout</a></li>
+          <li><a href="blog/best-tow-trucks-slc.html">Best of 2026</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Business</h4>
+        <ul>
+          <li><a href="submit.html">Add Listing</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Info</h4>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="sitemap.xml">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 SLC Tow Trucks</span>
+      <span>Salt Lake City, Utah</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+<script>
+  // Update JSON-LD after company loads
+  window.addEventListener('DOMContentLoaded', () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const id = urlParams.get('id');
+    const company = (typeof COMPANIES !== 'undefined' && COMPANIES.find(c => c.id === id)) || null;
+    if (company) {
+      const ldEl = document.getElementById('ld-json');
+      if (ldEl) {
+        ldEl.textContent = JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "AutoRepair",
+          "name": company.name,
+          "description": company.description,
+          "telephone": company.phone,
+          "areaServed": company.areas.join(', '),
+          "priceRange": "$$",
+          "openingHours": company.open247 ? "Mo-Su 00:00-24:00" : "Mo-Su 08:00-20:00",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": company.rating,
+            "reviewCount": company.reviews,
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": company.address.split(',')[0],
+            "addressLocality": "Salt Lake City",
+            "addressRegion": "UT",
+            "addressCountry": "US"
+          },
+          "url": `https://slctowtruck.com/listing-template.html?id=${company.id}`
+        });
+      }
+    }
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://slctowtruck.com/sitemap.xml
+
+# Block form submission endpoints from indexing
+Disallow: /submit.html
