@@ -1,106 +1,345 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- Core Pages -->
   <url>
-    <loc>https://slctowtruck.com/</loc>
-    <lastmod>2026-03-17</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://www.nationaltowconnect.com/</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://slctowtruck.com/listings.html</loc>
-    <lastmod>2026-03-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://slctowtruck.com/pricing.html</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://www.nationaltowconnect.com/listings.html</loc>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://slctowtruck.com/submit.html</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://www.nationaltowconnect.com/listing-template.html?id=cmd-towing</loc>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-
-  <!-- Blog Posts -->
   <url>
-    <loc>https://slctowtruck.com/blog/best-tow-trucks-slc.html</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://www.nationaltowconnect.com/listing-template.html?id=garcias-towing</loc>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/listing-template.html?id=dewaal-and-sons-towing</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/listing-template.html?id=marvel-towing</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/listing-template.html?id=sainsbury-towing</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/listing-template.html?id=roadrunner-towing</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/listing-template.html?id=munnster-towing</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/listing-template.html?id=salt-lake-towing</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/listing-template.html?id=nachos-towing</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/listing-template.html?id=sergeants-towing</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/listing-template.html?id=adams-towing</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/listing-template.html?id=intermountain-tow-service</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/listing-template.html?id=bullocks-towing</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/listing-template.html?id=cartow-towing</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/listing-template.html?id=top-notch-towing</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/listing-template.html?id=speedy-towing</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/listing-template.html?id=atr-towing</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/listing-template.html?id=salt-lake-tow-truck</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/listing-template.html?id=all-american-towing</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/listing-template.html?id=genos-towing</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/listing-template.html?id=vega-towing</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/listing-template.html?id=tow-u-later</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/pricing.html</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/blog/best-tow-trucks-slc.html</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/blog/tow-truck-cost-salt-lake-city.html</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/cities/austin-tx.html</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://slctowtruck.com/blog/tow-truck-cost-salt-lake-city.html</loc>
-    <lastmod>2026-03-17</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://www.nationaltowconnect.com/cities/baltimore-md.html</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-
-  <!-- Company Listings -->
   <url>
-    <loc>https://slctowtruck.com/listing-template.html?id=wasatch-towing</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://www.nationaltowconnect.com/cities/boston-ma.html</loc>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://slctowtruck.com/listing-template.html?id=salt-lake-recovery</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://www.nationaltowconnect.com/cities/charlotte-nc.html</loc>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://slctowtruck.com/listing-template.html?id=utah-fast-tow</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://www.nationaltowconnect.com/cities/chicago-il.html</loc>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://slctowtruck.com/listing-template.html?id=pioneer-towing-slc</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://www.nationaltowconnect.com/cities/columbus-oh.html</loc>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://slctowtruck.com/listing-template.html?id=beehive-roadside</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://www.nationaltowconnect.com/cities/dallas-tx.html</loc>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://slctowtruck.com/listing-template.html?id=granite-tow-and-recover</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://www.nationaltowconnect.com/cities/denver-co.html</loc>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://slctowtruck.com/listing-template.html?id=mountain-west-towing</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://www.nationaltowconnect.com/cities/detroit-mi.html</loc>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://slctowtruck.com/listing-template.html?id=slc-auto-rescue</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://www.nationaltowconnect.com/cities/el-paso-tx.html</loc>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://slctowtruck.com/listing-template.html?id=jordan-river-tow</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://www.nationaltowconnect.com/cities/fort-worth-tx.html</loc>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://slctowtruck.com/listing-template.html?id=uinta-auto-towing</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://www.nationaltowconnect.com/cities/houston-tx.html</loc>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.9</priority>
   </url>
-
+  <url>
+    <loc>https://www.nationaltowconnect.com/cities/indianapolis-in.html</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/cities/jacksonville-fl.html</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/cities/las-vegas-nv.html</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/cities/los-angeles-ca.html</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/cities/louisville-ky.html</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/cities/memphis-tn.html</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/cities/milwaukee-wi.html</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/cities/nashville-tn.html</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/cities/new-york-ny.html</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/cities/oklahoma-city-ok.html</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/cities/philadelphia-pa.html</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/cities/phoenix-az.html</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/cities/portland-or.html</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/cities/san-antonio-tx.html</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/cities/san-diego-ca.html</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/cities/san-francisco-ca.html</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/cities/seattle-wa.html</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.nationaltowconnect.com/cities/washington-dc.html</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
 </urlset>
